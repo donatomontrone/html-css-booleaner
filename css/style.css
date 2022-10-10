@@ -5,9 +5,22 @@ header {
 h1 {
     font-size: 1.5rem;
 }
-
+thead{
+    background-color:rgb(4, 134, 209) ;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+}
+td{
+    margin: auto;
+}
 .mark{
     background-color: yellow;
+}
+
+.odd{
+    background-color: rgba(4, 134, 209, 0.5);
 }
 #author{
     color: rgb(4, 134, 209);
