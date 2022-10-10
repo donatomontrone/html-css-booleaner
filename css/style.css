@@ -1,2 +1,16 @@
 header {
-    background: url(img/pattern.png) repeat-x lightskyblue;
+    background: url(img/pattern.png) repeat-x rgb(4, 134, 209);
+}
+h1 {
+    font-size: 1.5rem;
+}
+
+#author{
+    color: rgb(4, 134, 209);
+} 
+#date{
+    font-size: 0.8rem;
+}
+#photo{
+    font-size: 0.6rem;
+}
