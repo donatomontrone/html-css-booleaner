@@ -4,7 +4,8 @@ header {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 0%;
 }
 thead{
     background-color:rgb(4, 134, 209) ;
