@@ -1,3 +1,4 @@
+
 header {
     background: url(img/pattern.png) repeat-x rgb(4, 134, 209);
 }
@@ -11,9 +12,12 @@ thead{
 }
 table {
     border-collapse: collapse;
+    margin-top: 50px;
 }
-td{
-    margin: auto;
+
+ul{
+    margin: 0 0 0 0;
+    padding-left: 1em;
 }
 .mark{
     background-color: yellow;
@@ -21,6 +25,11 @@ td{
 
 .odd{
     background-color: rgba(4, 134, 209, 0.5);
+}
+
+.smallsize{
+    width: 25%;
+    text-align: left;
 }
 #author{
     color: rgb(4, 134, 209);
@@ -33,3 +42,8 @@ td{
 #photo{
     font-size: 0.6rem;
 }
+#bigsize {
+    width: 50%;
+    text-align: left;
+}
+
