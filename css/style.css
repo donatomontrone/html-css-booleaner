@@ -1,6 +1,7 @@
 
 header {
     background: url(img/pattern.png) repeat-x rgb(4, 134, 209);
+    height: 180px;
 }
 
 h1 {
@@ -12,7 +13,7 @@ thead{
 }
 table {
     border-collapse: collapse;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 ul{
@@ -47,3 +48,8 @@ ul{
     text-align: left;
 }
 
+#logo {
+
+    width: 25%;
+    margin-top: 80px;
+}
