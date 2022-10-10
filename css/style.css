@@ -1,4 +1,3 @@
-
 header {
     background: url(img/pattern.png) repeat-x rgb(4, 134, 209);
     height: 180px;
@@ -20,6 +19,13 @@ ul{
     margin: 0 0 0 0;
     padding-left: 1em;
 }
+
+h4{
+    color: lightgrey;
+}
+
+/* CLASS */
+
 .mark{
     background-color: yellow;
 }
@@ -32,6 +38,9 @@ ul{
     width: 25%;
     text-align: left;
 }
+
+/* ID */
+
 #author{
     color: rgb(4, 134, 209);
 } 
@@ -43,13 +52,31 @@ ul{
 #photo{
     font-size: 0.6rem;
 }
+
 #bigsize {
     width: 50%;
     text-align: left;
 }
 
 #logo {
-
     width: 25%;
     margin-top: 80px;
+}
+
+#graph {
+    background: url(img/graph.jpg);
+    height: 200px;
+    width: 25%;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 1%;
+}
+
+#monitor {
+    background: url(img/monitor.jpg);
+    height: 200px;
+    width: 25%;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 1%;
 }
