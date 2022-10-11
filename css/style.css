@@ -7,10 +7,12 @@ h1 {
     font-size: 2.5rem;
     margin-bottom: 0%;
 }
+
 thead{
     background-color:rgb(4, 134, 209) ;
     color: white;
 }
+
 table {
     border-collapse: collapse;
     margin-top: 30px;
@@ -40,6 +42,14 @@ h4{
     text-align: left;
 }
 
+.img-position {
+    height: 15rem;
+    width: 15rem;
+    background-position: center;
+    color: white;
+    padding-top: 2%;
+    padding-left: 3%;  
+}
 /* ID */
 
 #author{
@@ -66,18 +76,10 @@ h4{
 
 #graph {
     background: url(img/graph.jpg);
-    height: 200px;
-    width: 25%;
-    background-repeat: no-repeat;
-    color: white;
-    padding-top: 1%;
+
 }
 
 #monitor {
     background: url(img/monitor.jpg);
-    height: 200px;
-    width: 25%;
-    background-repeat: no-repeat;
-    color: white;
-    padding-top: 1%;
+    margin-bottom: 5%;
 }
